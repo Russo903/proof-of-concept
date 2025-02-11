@@ -3,44 +3,35 @@ This project is a semi-functional ecommerce site built as a proof of concept usi
 
 Getting Started
 1. Clone the Repository
-sh
-Copy
-Edit
+
 git clone <repo-url>
 cd <project-folder>
+
 2. Set Up the Backend (Spring Boot)
 Ensure you have JDK 21 installed.
+
 Navigate to the backend directory:
-sh
-Copy
-Edit
 cd backend
+
 Set up the H2 database connection:
 Open src/main/resources/application.properties and ensure the spring.datasource.url is correctly set.
 The database URL should match the one used in application.properties to avoid connection issues.
+
 Run the backend application:
-sh
-Copy
-Edit
 mvn spring-boot:run
 This will start the Spring Boot server.
-3. Set Up the Frontend (React)
+
+4. Set Up the Frontend (React)
 Navigate to the frontend directory:
-sh
-Copy
-Edit
 cd frontend
+
 Install dependencies:
-sh
-Copy
-Edit
 npm install
+
 Start the frontend:
-sh
-Copy
-Edit
 npm start
 This will launch the React development server.
+
 📌 Notes
 Database Configuration: If the application fails to connect, double-check the H2 database URL in application.properties.
 Known Issues: Some features are not fully implemented due to time constraints, but the core functionality demonstrates the integration between Spring Boot and React.
