@@ -36,3 +36,4 @@ This will launch the React development server.
 Database Configuration: If the application fails to connect, double-check the H2 database URL in application.properties.
 Known Issues: Some features are not fully implemented due to time constraints, but the core functionality demonstrates the integration between Spring Boot and React.
 API Integration: Attempts were made to integrate external APIs for product metadata, but this is still a work in progress.
+
