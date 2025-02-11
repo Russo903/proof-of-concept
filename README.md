@@ -1,6 +1,3 @@
-Certainly! Here is the formatted content from your README.md file:
-
----
 
 # Ecommerce Proof of Concept (Spring Boot + React)
 
